@@ -25,7 +25,7 @@ public class Class03 {
 		}else if((year % 4) != 0) {
 			System.out.println(0);
 			
-			
+			 
 		}
 		
 		
