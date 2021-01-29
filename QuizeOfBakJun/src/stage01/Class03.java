@@ -19,13 +19,20 @@ public class Class03 {
 		//아니면 0
 		//연도는 1보다 크거나 4000보다 작거나 같은 수 
 		
+		//4의 배수이면서 400의 배수는 윤년이구 
+		//윤년의 조건 100의 조건이 아닌..?
+		
 		if((year % 4)==0) {
 			System.out.println(1);
+			
+			if((year % 100) != 0) {
+				System.out.println("?");
+			}
+			
 			
 		}else if((year % 4) != 0) {
 			System.out.println(0);
 			
-			 
 		}
 		
 		
