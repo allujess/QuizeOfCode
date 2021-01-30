@@ -9,6 +9,7 @@ public class Test05 {
 		//1부터 N까지 출력하는문제 
 		//1부터 n까지 한줄에 하나씩 출력하는 프로그램
 		Scanner sc = new Scanner(System.in);
+		System.out.println("숫자를 입력하세요 : ");
 		
 		int n = sc.nextInt();
 		
