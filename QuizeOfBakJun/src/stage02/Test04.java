@@ -7,7 +7,9 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
 public class Test04 {
-	
+	//병근오빠 
+	//StringTokenizer 
+	//
 	public static void main(String[] args) throws NumberFormatException, IOException {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -18,6 +20,8 @@ public class Test04 {
 		
 		for(int i = 0; i < n; i++) {
 			String text = br.readLine();
+			
+			//Split
 			String[] word = text.split(" ");
 			int a = Integer.parseInt(word[0]);
 			int b = Integer.parseInt(word[1]);
@@ -25,7 +29,9 @@ public class Test04 {
 			
 		}
 		
-		bw.flush();
+		bw.flush();  //뽑아주는거 
+		
+		//그냥 닫기 
 		bw.close();
 		
 		
