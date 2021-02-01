@@ -13,7 +13,9 @@ public class Test11 {
 
 		Scanner sc = new Scanner(System.in);
 		
+		System.out.println("정할 개 수 : ");
 		int n = sc.nextInt();
+		System.out.println("기준점이 되는 수 : ");
 		int x = sc.nextInt();
 		
 		

@@ -14,7 +14,10 @@ public class Test02 {
 		
 		//아아아 원하는 반복문 n개 만큼 돌릴수있게 하는 숫자 
 		System.out.print("돌리고싶은 횟수를 적어주세요 : ");
+		
 		int T = sc.nextInt();
+		
+		//T로 인해 n번만큼의 반복문이 돌아가는 프로그램 
 		
 		for(int i = 1; i < T; i++) {
 			

@@ -16,6 +16,8 @@ public class Test06 {
 		//10,000보다 작거나 0보다 클때 
 		if(n <= 100000 || n > 0) {
 			
+			
+			
 			for(int i = n; i > 0; i--) {
 				System.out.println(i);
 			}

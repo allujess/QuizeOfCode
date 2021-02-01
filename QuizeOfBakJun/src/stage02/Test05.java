@@ -13,6 +13,7 @@ public class Test05 {
 		
 		int n = sc.nextInt();
 		
+		//이거는 1부터 시작이라면 
 		for(int i = 1; i <= n; i++) {
 			
 			System.out.println(i);

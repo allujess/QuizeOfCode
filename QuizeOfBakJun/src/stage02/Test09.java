@@ -7,27 +7,25 @@ public class Test09 {
 	public static void main(String[] args) {
 
 		
-		//별찍기 
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("원하시는 숫자를 입력하세요 : ");
+		
+		System.out.print("원하는 줄만큼 별을 찍어보세요 : ");
 		
 		int n = sc.nextInt();
 		
-		
-		for(int i = 0; i <= n; i++) {
-				
+		//몇 줄인지 	
+		for(int i = 1; i <= n; i++) {
 			
-			//줄에 출력되는거느 n의 수보다 작게 증가하므로 
-			for(int j = 0; j < i; j++) {
-
-				System.out.print("*");
+			for(int j = 1; j < i; j++) {
 				
+				System.out.print("*");
 			}
 			
 			System.out.println("");
 			
 		}
+		
 	}
 
 }

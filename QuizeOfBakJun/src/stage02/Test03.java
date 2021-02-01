@@ -13,6 +13,7 @@ public class Test03 {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("n의 값 : ");
+		
 		int n = sc.nextInt();
 		int sum = 0;
 		
@@ -23,6 +24,7 @@ public class Test03 {
 			
 		}
 		
+		//1부터 누적한 값을 출력해주기 
 		System.out.println(sum);
 		
 	}
