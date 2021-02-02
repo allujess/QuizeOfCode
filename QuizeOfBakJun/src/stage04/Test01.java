@@ -22,6 +22,7 @@ public class Test01 {
 		for(int i = 0; i < n; i++) {
 			
 		
+			//6번 숫자를 집어넣음 
 			arr[i] = sc.nextInt();
 			
 		}

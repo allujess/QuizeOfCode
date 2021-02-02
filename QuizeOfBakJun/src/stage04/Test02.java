@@ -1,31 +1,49 @@
 package stage04;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Test02 {
 
 	public static void main(String[] args) {
 
-		//9개의 서로 다른 자연수가 주어질때, 최댓값을 찾고 
-		//최댓값이 몇 번째 수인지를 구하는 프로그램을 작성하시오
+		Scanner sc = new Scanner(System.in);
 		
-		//ex) 9개의 자연수에서 최댓값과 몇 번째인지 수 구하기 
+		System.out.println("테스트 케이스 숫자를 입력해주세요 : ");
 		
-		for(int i = 1; i <= 9; i++) {
+		int t = sc.nextInt();
+		int index = 0; 
+		
+		int[] arr = new int [t];
+		
+		
+		
+		for(int i = 0; i < arr.length; i++) {
 			
-			int a = (int) (Math.random()*100 + 1);
+			arr[i] = sc.nextInt();
 			
-			System.out.println(a);
-			
+			index = i + 1;
 			
 			
 		}
 		
+		Arrays.sort(arr);
+		
+	//	System.out.println(arr.length - 1);
+		
+		//arr.length - 1 이 최댓값일꺼임 
+		System.out.println(arr[t-1]);
+		
+		System.out.println(index);
 		
 		
-		
+	
+
 	}
 
 }
+
+
+
 
 
