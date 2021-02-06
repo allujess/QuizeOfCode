@@ -22,6 +22,8 @@ public class Test04 {
 		for(int i = 0; i < 10; i++) {
 			
 			System.out.print("10번 숫자를 입력하세요 : ");
+			
+			//.add지정된요소를 집합에 추가 
 			h.add(sc.nextInt() % 42);
 			//입력받은 값의 나머지 값을 add메소드를 통해 HashSet에 저장
 			
